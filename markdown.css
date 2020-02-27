@@ -1,4 +1,10 @@
+td, th {
+  border: 1px solid #dddddd;
+}
 
+tr:nth-child(even) {
+  background-color: #f6f8fa;
+}
 
 #code-csp-warning {
 	position: fixed;
