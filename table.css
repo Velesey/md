@@ -1,27 +1,27 @@
-td, th {
+td.mdtd, th.mdth {
   border: 1px solid #dddddd;
 }
 
-tr:nth-child(even) {
+tr.mdtr:nth-child(even) {
   background-color: #f6f8fb;
 }
 
-table {
+table.mdtable {
 	border-collapse: collapse;
 }
 
-table > thead > tr > th {
+table.mdtable > thead.mdthead > tr.mdtr > th.mdth {
 	text-align: left;
 	border-bottom: 1px solid;
 }
 
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td {
+table.mdtable > thead.mdthead > tr.mdtr > th.mdth,
+table.mdtable > thead.mdthead > tr.mdtr > td.mdtd,
+table.mdtable > tbody.mdtbody > tr.mdtr > th.mdth,
+table.mdtable > tbody.mdtbody > tr.mdtr > td.mdtd {
 	padding: 5px 10px;
 }
 
-table > tbody > tr + tr > td {
+table.mdtable > tbody.mdtbody > tr.mdtr + tr.mdtr > td.mdtd {
 	border-top: 1px solid;
 }
